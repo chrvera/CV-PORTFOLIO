@@ -44,7 +44,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Installation
 
-The application has been deployed to Netlify, so no installation or commands are needed to run the application. Your can view the deployed application here: https://glittery-zuccutto-60079e.netlify.app/
+The application has been deployed to Netlify, so no installation or commands are needed to run the application. Your can view the deployed application here: https://cvera-portfolio.netlify.app/
 
 ## Questions
 
