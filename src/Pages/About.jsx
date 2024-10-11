@@ -1,10 +1,11 @@
 import React from 'react';
+import meImg from '../../public/me.jpg';
 
 const About = () => {
   return (
     <section className="about">
       <h2>About Me</h2>
-      <img src="./public/me.jpg" alt="Christopher Vera" className="about__image" />
+      <img src= { meImg } alt="Christopher Vera" className="about__image" />
       <p>
         I'm a passionate software engineer with a strong background in building dynamic, responsive, and user-friendly web applications. My journey in coding began when I was just a child as my father was a computer programmer. Since then, I've been driven by the desire to solve problems through technology.
       </p>

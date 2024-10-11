@@ -1,30 +1,33 @@
 import React from 'react';
 import Project from '../components/Project';
-
+import blogImg from '../../public/Blog.jpg';
+import readerImg from '../../public/Reader.jpeg';
+import cinephileImg from '../../public/cinephile.jpg';
+import mdbImg from '../../public/MDB.jpg';
 
 const Portfolio = () => {
   const projects = [
         {
           title: 'by-the-blog',
-          image: './public/Blog.jpg',
+          image: blogImg,
           deployedUrl: '',
           githubUrl: 'https://github.com/chrvera/by-the-blog',
         },
         {
           title: 'Reader-Reply',
-          image: './public/Reader.jpeg',
+          image: readerImg,
           deployedUrl: 'https://reader-reply.onrender.com/',
           githubUrl: 'https://github.com/JacqMcQ/Reader-Reply',
         },
         {
           title: 'Certified-Cinephile',
-          image: './public/cinephile.jpg',
+          image: cinephileImg,
           deployedUrl: '',
           githubUrl: 'https://github.com/A-Morones/Certified-Cinephile',
         },
         {
           title: 'Project-JATE',
-          image: './MDB.jpg',
+          image: mdbImg,
           deployedUrl: 'https://project-jate.onrender.com',
           githubUrl: 'https://github.com/chrvera/Project-JATE',
         },
